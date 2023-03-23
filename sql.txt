@@ -1,6 +1,4 @@
-
-
-//ESTA INSTRUCCIÓN CREA LA TABLA ALUMNOS
+//esto me crea una nueva tabla en mi base de Datos SQL
 CREATE TABLE alumnos (
 
   Id INT AUTO_INCREMENT PRIMARY KEY,
@@ -15,6 +13,7 @@ CREATE TABLE alumnos (
 
 
 //ESTA OTRA INSERTA LOS ALUMNOS
+//Esto inserta los datos
 INSERT INTO alumnos (Nombre, Apellido, DNI, Localidad, mail, grupo)
 VALUES
   ('Juan', 'Pérez', '12345678', 'Buenos Aires', 'juan.perez@email.com', 'A'),

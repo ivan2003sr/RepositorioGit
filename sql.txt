@@ -18,3 +18,7 @@ INSERT INTO alumnos (Nombre, Apellido, DNI, Localidad, mail, grupo)
 VALUES
   ('Juan', 'Pérez', '12345678', 'Buenos Aires', 'juan.perez@email.com', 'A'),
   ('María', 'González', '87654321', 'Córdoba', 'maria.gonzalez@email.com', 'B');
+
+
+
+LE AGREGO UN TEXTO EXTRA

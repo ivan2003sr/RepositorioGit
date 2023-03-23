@@ -1,4 +1,8 @@
+
+
+//ESTA INSTRUCCIÓN CREA LA TABLA ALUMNOS
 CREATE TABLE alumnos (
+
   Id INT AUTO_INCREMENT PRIMARY KEY,
   Nombre VARCHAR(50),
   Apellido VARCHAR(50),
@@ -10,7 +14,7 @@ CREATE TABLE alumnos (
 
 
 
-
+//ESTA OTRA INSERTA LOS ALUMNOS
 INSERT INTO alumnos (Nombre, Apellido, DNI, Localidad, mail, grupo)
 VALUES
   ('Juan', 'Pérez', '12345678', 'Buenos Aires', 'juan.perez@email.com', 'A'),

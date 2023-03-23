@@ -1,4 +1,4 @@
-//esto me crea una nueva tabla en mi base de Datos SQL
+//Le cambio este comentario
 CREATE TABLE alumnos (
 
   Id INT AUTO_INCREMENT PRIMARY KEY,

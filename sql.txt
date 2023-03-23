@@ -1,0 +1,17 @@
+CREATE TABLE alumnos (
+  Id INT AUTO_INCREMENT PRIMARY KEY,
+  Nombre VARCHAR(50),
+  Apellido VARCHAR(50),
+  DNI VARCHAR(10),
+  Localidad VARCHAR(50),
+  mail VARCHAR(50),
+  grupo VARCHAR(10)
+);
+
+
+
+
+INSERT INTO alumnos (Nombre, Apellido, DNI, Localidad, mail, grupo)
+VALUES
+  ('Juan', 'Pérez', '12345678', 'Buenos Aires', 'juan.perez@email.com', 'A'),
+  ('María', 'González', '87654321', 'Córdoba', 'maria.gonzalez@email.com', 'B');
